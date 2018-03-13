@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  FantasticView.h
 //  FantasticView
 //
 //  Created by AspidaMacBook on 13/03/2018.
@@ -7,11 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "FantasticView.h"
 
-@interface ViewController : UIViewController
+@interface FantasticView : UIView
 
-@property (nonatomic,strong) FantasticView *fantasticView;
 
+@property (nonatomic,strong) NSMutableArray<UIColor *> *colors;
+@property (nonatomic,assign) int counter;
 @end
-

@@ -13,6 +13,7 @@
 		F445A7C72057E3DD00A834FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F445A7C62057E3DD00A834FF /* Assets.xcassets */; };
 		F445A7CA2057E3DD00A834FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F445A7C82057E3DD00A834FF /* LaunchScreen.storyboard */; };
 		F445A7CD2057E3DD00A834FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F445A7CC2057E3DD00A834FF /* main.m */; };
+		F445A7D52057E3FF00A834FF /* FantasticView.m in Sources */ = {isa = PBXBuildFile; fileRef = F445A7D42057E3FF00A834FF /* FantasticView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		F445A7C92057E3DD00A834FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F445A7CB2057E3DD00A834FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F445A7CC2057E3DD00A834FF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F445A7D32057E3FF00A834FF /* FantasticView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FantasticView.h; sourceTree = "<group>"; };
+		F445A7D42057E3FF00A834FF /* FantasticView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FantasticView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				F445A7C82057E3DD00A834FF /* LaunchScreen.storyboard */,
 				F445A7CB2057E3DD00A834FF /* Info.plist */,
 				F445A7CC2057E3DD00A834FF /* main.m */,
+				F445A7D32057E3FF00A834FF /* FantasticView.h */,
+				F445A7D42057E3FF00A834FF /* FantasticView.m */,
 			);
 			path = FantasticView;
 			sourceTree = "<group>";
@@ -144,6 +149,7 @@
 			files = (
 				F445A7C22057E3DD00A834FF /* ViewController.m in Sources */,
 				F445A7CD2057E3DD00A834FF /* main.m in Sources */,
+				F445A7D52057E3FF00A834FF /* FantasticView.m in Sources */,
 				F445A7BF2057E3DD00A834FF /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

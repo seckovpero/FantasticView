@@ -16,6 +16,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.fantasticView = [[FantasticView alloc] initWithFrame:self.view.bounds];
+    [self.view addSubview:_fantasticView];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
